@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Manim
+media/
+*.mp4
+*.gif
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Audio temp
+temp/
+audio_temp/
+*.mp3
+*.wav
+*.aac
+*.m4a
+*.flac
+
+# Subtitle temp
+*.srt
+*.ass
+*.vtt
+
+# FFmpeg temp files
+concat_list.txt
+cover_segment.mp4
+
+# Thumbnails (keep source, not generated)
+# thumbnails/*.jpg
+# !thumbnails/.gitkeep
+
+# Final videos
+bit_final_with_cover.mp4
+bit_with_styled_subs.mp4
+bit_with_metadata_cover.mp4
+bit_with_audio.mp4
+
+# FFmpeg temp files
+concat_list.txt
+cover_segment.mp4
+
+# Ruff cache
+.ruff_cache/
