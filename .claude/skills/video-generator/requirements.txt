@@ -1,0 +1,11 @@
+# Video Generator Skill 依赖
+
+# 核心依赖
+manim>=0.20.0
+edge-tts>=6.0.0
+pyyaml>=6.0
+
+# 可选依赖（用于开发）
+# black>=23.0.0      # 代码格式化
+# pytest>=7.0.0      # 测试框架
+# mypy>=1.0.0        # 类型检查

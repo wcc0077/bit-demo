@@ -1,0 +1,106 @@
+# 视频生成配置
+
+# 渲染配置
+render:
+  quality: "high"
+  resolution: [1920, 1080]
+  fps: 60
+
+# 音频配置
+audio:
+  voice: "zh-CN-XiaoxiaoNeural"
+  rate: "-5%"
+
+# 字幕配置
+subtitles:
+  font: "SimSun"
+  size: 18
+  color: "&H00FFFF&"
+
+# 关键词配色（按语义分组）
+keyword_colors:
+  tech:
+    color: "#FF6B6B"
+    words: ["API", "CLI", "GUI", "NLI", "代码", "命令", "Qubit", "量子比特", "Sycamore", "Shor算法", "RSA"]
+  concept:
+    color: "#4ECDC4"
+    words: ["自然语言", "语言", "交互", "界面", "叠加态", "纠缠", "退相干", "量子优势", "量子门"]
+  core:
+    color: "#DDA0DD"
+    words: ["Token", "AI", "量子计算", "量子"]
+  attribute:
+    color: "#FF9F43"
+    words: ["程序员", "效率", "门槛", "革命"]
+
+# 主题英文名映射
+topic_names:
+  "计算机中的bit是什么": "computer-bit-concept"
+  "计算机中抽象的智慧": "computer-abstraction"
+  "计算机的交互历程": "computer-interaction-history"
+  "计算机交互历程": "computer-interaction-history"
+  "量子计算": "quantum-computing"
+  "AI中的Token概念": "ai-token-concept"
+  "Token概念": "ai-token-concept"
+  "编程基础": "programming-basics"
+  "机器学习入门": "machine-learning-intro"
+  "深度学习": "deep-learning"
+  "自然语言处理": "nlp-basics"
+  "数据结构": "data-structures"
+  "算法基础": "algorithm-basics"
+  "网络协议": "network-protocols"
+  "操作系统": "operating-systems"
+  "数据库原理": "database-principles"
+
+# 模板结构
+templates:
+  history_evolution:
+    name: "历史演变型"
+    sections:
+      - title: "开场"
+        ratio: 0.07
+      - title: "第一时代"
+        ratio: 0.15
+      - title: "第二时代"
+        ratio: 0.15
+      - title: "第三时代"
+        ratio: 0.17
+      - title: "第四时代"
+        ratio: 0.17
+      - title: "对比"
+        ratio: 0.14
+      - title: "回顾"
+        ratio: 0.10
+      - title: "结尾"
+        ratio: 0.08
+  concept_explanation:
+    name: "概念讲解型"
+    sections:
+      - title: "开场"
+        ratio: 0.08
+      - title: "概念引入"
+        ratio: 0.12
+      - title: "核心讲解"
+        ratio: 0.20
+      - title: "应用案例"
+        ratio: 0.15
+      - title: "对比分析"
+        ratio: 0.15
+      - title: "总结"
+        ratio: 0.15
+      - title: "结尾"
+        ratio: 0.10
+  comparison:
+    name: "对比分析型"
+    sections:
+      - title: "开场"
+        ratio: 0.08
+      - title: "方案A"
+        ratio: 0.20
+      - title: "方案B"
+        ratio: 0.20
+      - title: "对比"
+        ratio: 0.25
+      - title: "建议"
+        ratio: 0.15
+      - title: "结尾"
+        ratio: 0.12
