@@ -86,5 +86,8 @@ bit_with_audio.mp4
 concat_list.txt
 cover_segment.mp4
 
+# Generated video outputs
+videos_generated/
+
 # Ruff cache
 .ruff_cache/
